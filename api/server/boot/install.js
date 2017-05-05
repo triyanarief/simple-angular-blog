@@ -12,7 +12,7 @@ module.exports = function (app) {
 
 
     User.create([
-      {username: 'admin', email: 'toan@tabvn.com', password: 'admin', 'firstName': 'Toan', 'lastName': 'Nguyen Dinh'},
+      {username: 'admin', email: 'triyanarief@icloud.com', password: 'admin', 'firstName': 'Triyan', 'lastName': 'Wibowo'},
     ], function (err, users) {
       if (err) throw err;
 
@@ -39,7 +39,3 @@ module.exports = function (app) {
 
 
 };
-
-
-
-
